@@ -52,3 +52,19 @@ nnoremap <C-f> :NERDTreeFind<CR>
 " tagbar
 nmap <F8> :TagbarToggle<CR>
 
+" Map Ctrl + p to open fuzzy find (FZF)
+nnoremap <c-p> :Files<cr>
+
+" Switch between the last two files
+nnoremap <Leader><Leader> <C-^>
+
+"" Splits
+" easier split movement
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+set splitbelow
+set splitright
+
