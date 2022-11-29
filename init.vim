@@ -11,6 +11,7 @@ call plug#begin()
 
 Plug 'junegunn/vim-easy-align'
 Plug 'junegunn/fzf.vim'
+Plug 'tpope/vim-fugitive'
 
 Plug 'preservim/nerdtree'
 Plug 'ryanoasis/vim-devicons'
